@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-label="Smart Education Bot for NZ.ua — 1000+ active students">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1526"/>
+      <stop offset="1" stop-color="#132036"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#26a5e4" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#26a5e4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="num" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5ac8fa"/>
+      <stop offset="1" stop-color="#8ec5ff"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="430" rx="22"/></clipPath>
+    <clipPath id="phone"><rect width="300" height="360" rx="26"/></clipPath>
+    <style>
+      .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+      .pop { opacity: 0; animation: pop .6s ease-out forwards; }
+      .b1 { animation-delay: .4s; } .b2 { animation-delay: 1.2s; } .b3 { animation-delay: 2s; } .b4 { animation-delay: 2.8s; }
+      @keyframes pop { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+      .pulse { animation: pulse 2s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)" class="sans">
+    <rect width="1200" height="430" fill="url(#bg)"/>
+    <circle cx="980" cy="210" r="300" fill="url(#glow)"/>
+
+    <!-- title -->
+    <text x="60" y="78" font-size="16" font-weight="700" fill="#5ac8fa" letter-spacing="2">TELEGRAM BOT · NZ.UA</text>
+    <text x="60" y="122" font-size="38" font-weight="800" fill="#f0f5ff">Smart Education Bot</text>
+    <text x="60" y="156" font-size="18" fill="#8b9ab3">Schedules, homework, grades and an AI tutor for Ukrainian students</text>
+
+    <!-- stat -->
+    <circle class="pulse" cx="68" cy="214" r="7" fill="#28c840"/>
+    <text x="84" y="220" font-size="16" fill="#8b9ab3">live</text>
+    <text x="60" y="282" font-size="64" font-weight="800" fill="url(#num)">1000+</text>
+    <text x="292" y="262" font-size="20" font-weight="600" fill="#e6edf7">active</text>
+    <text x="292" y="288" font-size="20" font-weight="600" fill="#e6edf7">students</text>
+
+    <!-- chips -->
+    <g font-size="15" font-weight="600" fill="#d6e2f5">
+      <g transform="translate(60 324)">
+        <rect width="252" height="36" rx="18" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
+        <text x="16" y="23">🛡  Cloudflare-aware scraping</text>
+      </g>
+      <g transform="translate(324 324)">
+        <rect width="206" height="36" rx="18" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
+        <text x="16" y="23">🔔  Real-time push alerts</text>
+      </g>
+      <g transform="translate(542 324)">
+        <rect width="176" height="36" rx="18" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
+        <text x="16" y="23">🤖  Gemini AI tutor</text>
+      </g>
+      <g transform="translate(60 370)">
+        <rect width="200" height="36" rx="18" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
+        <text x="16" y="23">🔐  AES (Fernet) at rest</text>
+      </g>
+      <g transform="translate(272 370)">
+        <rect width="200" height="36" rx="18" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
+        <text x="16" y="23">⭐  Telegram Stars VIP</text>
+      </g>
+      <g transform="translate(484 370)">
+        <rect width="182" height="36" rx="18" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
+        <text x="16" y="23">🔗  Referral system</text>
+      </g>
+    </g>
+
+    <!-- phone mock (illustration) -->
+    <g transform="translate(820 36)">
+      <rect x="-6" y="-6" width="312" height="372" rx="32" fill="#05080f" stroke="#ffffff" stroke-opacity="0.12"/>
+      <g clip-path="url(#phone)">
+        <rect width="300" height="360" fill="#0e1621"/>
+        <rect width="300" height="56" fill="#17212b"/>
+        <circle cx="34" cy="28" r="16" fill="#26a5e4"/>
+        <text x="34" y="34" text-anchor="middle" font-size="16">🎓</text>
+        <text x="60" y="25" font-size="15" font-weight="700" fill="#f0f5ff">NZ Bot</text>
+        <text x="60" y="43" font-size="12" fill="#6c8aa5">bot</text>
+
+        <g transform="translate(14 74)"><g class="pop b1">
+          <rect width="230" height="54" rx="14" fill="#182533"/>
+          <text x="14" y="23" font-size="13" font-weight="700" fill="#5ac8fa">🔔 Lesson starts in 5 min</text>
+          <text x="14" y="42" font-size="13" fill="#c9d4e5">Algebra · room 204</text>
+        </g></g>
+        <g transform="translate(14 140)"><g class="pop b2">
+          <rect width="230" height="54" rx="14" fill="#182533"/>
+          <text x="14" y="23" font-size="13" font-weight="700" fill="#ffd43b">🆕 New grade: 11</text>
+          <text x="14" y="42" font-size="13" fill="#c9d4e5">Physics · lab work</text>
+        </g></g>
+        <g transform="translate(96 206)"><g class="pop b3">
+          <rect width="190" height="40" rx="14" fill="#2b5278"/>
+          <text x="14" y="25" font-size="13" fill="#e6edf7">📷 help with this task</text>
+        </g></g>
+        <g transform="translate(14 258)"><g class="pop b4">
+          <rect width="250" height="72" rx="14" fill="#182533"/>
+          <text x="14" y="23" font-size="13" font-weight="700" fill="#8ec5ff">🤖 AI tutor</text>
+          <text x="14" y="42" font-size="13" fill="#c9d4e5">Let's solve it step by step:</text>
+          <text x="14" y="60" font-size="13" fill="#c9d4e5">first, write down what's given…</text>
+        </g></g>
+      </g>
+    </g>
+  </g>
+</svg>

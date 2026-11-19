@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="TheKeq — Python Developer from Ukraine">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#111a2e"/>
+    </linearGradient>
+    <radialGradient id="blobBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#2f7cf6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#2f7cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobYellow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ffd43b" stop-opacity="0.40"/>
+      <stop offset="1" stop-color="#ffd43b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5aa2ff"/>
+      <stop offset="0.55" stop-color="#8ec5ff"/>
+      <stop offset="1" stop-color="#ffd43b"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="320" rx="22"/></clipPath>
+    <style>
+      .float1 { animation: f1 9s ease-in-out infinite; }
+      .float2 { animation: f2 11s ease-in-out infinite; }
+      @keyframes f1 { 0%,100% { transform: translate(0,0); } 50% { transform: translate(40px,18px); } }
+      @keyframes f2 { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-36px,-14px); } }
+      .rise { opacity: 0; animation: rise .9s ease-out forwards; }
+      .d1 { animation-delay: .1s; } .d2 { animation-delay: .35s; } .d3 { animation-delay: .6s; }
+      .d4 { animation-delay: .9s; } .d5 { animation-delay: 1.2s; } .d6 { animation-delay: 1.5s; }
+      .d7 { animation-delay: 1.8s; } .d8 { animation-delay: 2.1s; }
+      @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+      .cursor { animation: blink 1s step-end infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+      .mono { font-family: 'JetBrains Mono', Consolas, 'Liberation Mono', 'Courier New', monospace; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <circle class="float1" cx="180" cy="40" r="260" fill="url(#blobBlue)"/>
+    <circle class="float2" cx="1080" cy="300" r="240" fill="url(#blobYellow)"/>
+
+    <!-- left: name & role -->
+    <g class="sans">
+      <g class="rise d1">
+        <rect x="64" y="64" width="210" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
+        <rect x="80" y="74" width="18" height="6" rx="1" fill="#0057b7"/>
+        <rect x="80" y="80" width="18" height="6" rx="1" fill="#ffd700"/>
+        <text x="108" y="85.5" font-size="15" fill="#c9d4e5" font-weight="600">Made in Ukraine</text>
+      </g>
+      <text class="rise d2" x="62" y="168" font-size="76" font-weight="800" fill="url(#nameGrad)" letter-spacing="-1">TheKeq</text>
+      <text class="rise d3" x="66" y="212" font-size="25" font-weight="600" fill="#e6edf7">Python Developer · Telegram Bots · Automation</text>
+      <text class="rise d4" x="66" y="248" font-size="17" fill="#8b9ab3">asyncio  ·  web scraping  ·  API integrations  ·  5,000+ real users</text>
+    </g>
+
+    <!-- right: terminal window -->
+    <g transform="translate(760 52)"><g class="rise d3">
+      <rect width="380" height="216" rx="14" fill="#0a0f1c" fill-opacity="0.85" stroke="#ffffff" stroke-opacity="0.10"/>
+      <rect width="380" height="36" rx="14" fill="#ffffff" fill-opacity="0.04"/>
+      <circle cx="22" cy="18" r="6" fill="#ff5f57"/>
+      <circle cx="42" cy="18" r="6" fill="#febc2e"/>
+      <circle cx="62" cy="18" r="6" fill="#28c840"/>
+      <text x="190" y="23" text-anchor="middle" class="mono" font-size="12" fill="#6b7a93">thekeq@ukraine: ~</text>
+      <g class="mono" font-size="14">
+        <text class="rise d4" x="20" y="66"><tspan fill="#28c840">$</tspan><tspan fill="#e6edf7"> python bot.py</tspan></text>
+        <text class="rise d5" x="20" y="94" fill="#8b9ab3">[aiogram] polling started…</text>
+        <text class="rise d6" x="20" y="122"><tspan fill="#5aa2ff">✓</tspan><tspan fill="#c9d4e5"> 1000+ students online</tspan></text>
+        <text class="rise d7" x="20" y="150"><tspan fill="#ffd43b">♞</tspan><tspan fill="#c9d4e5"> Nxf7!! graded Brilliant</tspan></text>
+        <text class="rise d8" x="20" y="178"><tspan fill="#1ed760">♪</tspan><tspan fill="#c9d4e5"> bio: Listening to Spotify</tspan></text>
+        <text class="rise d8" x="20" y="204"><tspan fill="#28c840">$</tspan><tspan class="cursor" fill="#e6edf7"> ▍</tspan></text>
+      </g>
+    </g></g>
+  </g>
+</svg>
