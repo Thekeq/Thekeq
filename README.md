@@ -8,6 +8,7 @@
 
 <br/>
 
+<a href="https://thekeq.com"><img src="https://img.shields.io/badge/Portfolio-thekeq.com-D4FF3F?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio"/></a>
 <a href="https://t.me/thekeq"><img src="https://img.shields.io/badge/Telegram-@thekeq-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
 <a href="https://www.linkedin.com/in/thekeq/"><img src="https://img.shields.io/badge/LinkedIn-thekeq-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="https://www.instagram.com/_thekeq_/"><img src="https://img.shields.io/badge/Instagram-_thekeq_-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
@@ -54,6 +55,7 @@ class TheKeq:
     age        = 17
     focus      = ["Telegram bots", "asyncio", "web scraping", "API integration"]
     real_users = "5,000+"
+    portfolio  = "https://thekeq.com"
     building   = ["ChessTrainer", "Smart Education Bot for NZ.ua"]
 
     def say_hi(self):
@@ -259,6 +261,7 @@ Got a bot idea, a scraping task, or just want to talk chess? Message me, I reply
 
 <br/>
 
+<a href="https://thekeq.com"><img src="https://img.shields.io/badge/Visit_my-Portfolio-D4FF3F?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio"/></a>
 <a href="https://t.me/thekeq"><img src="https://img.shields.io/badge/Write_me_on-Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
 <a href="https://www.linkedin.com/in/thekeq/"><img src="https://img.shields.io/badge/Connect_on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="https://www.instagram.com/_thekeq_/"><img src="https://img.shields.io/badge/Follow_on-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
